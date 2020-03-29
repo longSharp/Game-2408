@@ -1,0 +1,98 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    border-top: 1px solid rgb(191, 191, 255);
+    background: rgb(191, 191, 255) url(../images/yx/body_bg.gif) repeat-x 0 bottom;
+}
+.wrap{
+    position: relative;
+    width: 320px;
+    height: 436px;
+    margin: 150px auto 0;
+}
+.text{
+    position: absolute;
+    top: 102%;
+    left: 102%;
+    width: 300px;
+    height: 130px;
+}
+.text p{
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: bold;
+}
+.con{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/yx/bg.png) no-repeat 0 0/cover;
+    border-radius: 10px;
+}
+.con div{
+    float: left;
+    width: 80px;
+    height: 110px;
+}
+.con div>img{
+    width: 100%;
+    height: 100%;
+}
+.context{
+    width: 262px;
+    height: 185px;
+    background: url(../images/yx/scroe.png) no-repeat 0 0/cover;
+    transform: translate(-36%,-44%);
+}
+.context p{
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+    transform: rotate(-30deg) translate(26px,6px); 
+}
+.fail{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 260px;
+    height: 180px;
+    background: #eccbf0;
+    box-shadow: inset 0 0 8px #6fd9f0;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+}
+.fail>p{
+    margin-top: 30px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.fail>button{
+    display: block;
+    width: 100px;
+    height: 36px;
+    margin: 30px auto 0;
+    background-color: transparent;
+    background: linear-gradient(-90deg,rgb(245, 137, 48) 0%,rgb(238, 151, 111) 100%);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: .3s;
+    font-weight: bold;
+}
+.active{
+    display: block;
+}
+.fail>button:hover{
+    background: linear-gradient(-90deg,rgb(233, 108, 5) 0%,rgb(240, 129, 78) 100%);
+    transform: scale(1.1);
+}

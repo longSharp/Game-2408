@@ -1,0 +1,46 @@
+<!DOCTYPE html><!-- 此标签不属于网页的内容. 它是一条指令，告诉浏览器编写页面所用的标记的版本。 -->
+<html><!-- 存放网页上所有的内容和信息 -->
+<head><!-- 存储网页上给浏览器或是搜索引擎看的所有信息 -->
+    <meta charset="UTF-8"><!-- meta标签被称为元数据，作用是专门告诉浏览器或是搜索引擎关于网页的一些基本数据 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimal-ui:ios">
+    <meta name="Author" content="炮炮"><!-- 网页作者 -->
+    <meta name="Keywords" content=""><!-- 网页关键词 -->
+    <meta name="Description" content=""><!-- 网页描述 -->
+    <title>奶炮炮</title><!-- title标签之间存放的是网页的名字 -->
+    <link rel="stylesheet" href="css/yx2048.css">
+    <link rel="stylesheet icon" href="./icon/2048.ico">
+</head>
+<body>
+    <div class="wrap">
+        <div class="text">
+            <p>玩法说明：<br/>1.用键盘上下左右键控制数字走向<br/>2.当点击了一个方向时，格子中的数字会全部往那个方向移动，直到不能再移动，如果有相同的数字则会合并<br/>3.当格子中不再有可移动和可合并的数字时，游戏结束</p>
+        </div>
+        <div class="con">
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+            <div><img src="images/yx/cube_0.png" value="0"></div>
+        </div>
+        <div class="context">
+            <p>得分：0</p>
+        </div>
+        <div class="fail">
+            <p>很遗憾，您失败了！</p>
+            <button>重新开始</button>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
